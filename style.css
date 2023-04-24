@@ -1,0 +1,125 @@
+.email-signature {
+  background: #fff;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 20px 0;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.email-signature .signature-details {
+  color: #fff;
+  background-color: #f29f11;
+  text-transform: uppercase;
+  width: 70%;
+  padding: 32px 90px 33px 15px;
+  margin: 0 0 20px 0;
+  border-radius: 0 65px 65px 0;
+  position: relative;
+}
+.email-signature .signature-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #fff;
+  overflow: hidden;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  right: 11px;
+  z-index: 1;
+}
+.email-signature .signature-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.email-signature .title {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0 0 5px;
+}
+.email-signature .post {
+  font-size: 15px;
+  font-weight: 600;
+}
+.email-signature .icon {
+  text-align: center;
+  width: 80px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+}
+.email-signature .icon li {
+  margin: 0 2px 7px;
+  display: inline-block;
+}
+.email-signature .icon li a {
+  color: #fff;
+  background-color: #f29f11;
+  font-size: 18px;
+  text-align: center;
+  line-height: 33px;
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+.email-signature .icon li a:hover {
+  color: #fff;
+  background-color: #00c0a9;
+}
+.email-signature .signature-content {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.email-signature .signature-content li {
+  color: #1fb3b9;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-right: 7px;
+  display: inline-block;
+}
+.email-signature .signature-content li span {
+  color: #f29f11;
+}
+@media screen and (max-width: 576px) {
+  .email-signature {
+    padding: 0 0 20px;
+    border-radius: 60px 60px 0 0;
+    overflow: hidden;
+  }
+  .email-signature .signature-details {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    border-radius: 0;
+  }
+  .email-signature .signature-icon {
+    margin: 0 auto 20px;
+    transform: translateY(0);
+    position: relative;
+    right: auto;
+    top: auto;
+  }
+  .email-signature .icon {
+    text-align: center;
+    width: auto;
+    margin: 0 auto 5px;
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+  .email-signature .signature-content {
+    padding: 0 10px;
+  }
+  .email-signature .signature-content li {
+    display: block;
+    line-height: 25px;
+    margin: 0;
+  }
+}
